@@ -14,6 +14,7 @@
     "predeploy": "npm run build"
   },
   "dependencies": {
+    "@react-spring/web": "^9.7.3",
     "@telegram-apps/telegram-ui": "^2.1.4",
     "@tma.js/react-router-integration": "^4.0.3",
     "@tma.js/sdk-react": "^2.2.5",
@@ -21,7 +22,8 @@
     "eruda": "^3.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.23.0"
+    "react-router-dom": "^6.23.0",
+    "react-tinder-card": "^1.6.4"
   },
   "devDependencies": {
     "@eslint/js": "^9.2.0",
