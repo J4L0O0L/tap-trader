@@ -1,4 +1,4 @@
-import React, { type FC, useState, useMemo, useRef, MutableRefObject } from 'react';
+import React, { type FC, useState, useMemo, useRef } from 'react';
 import TinderCard from 'react-tinder-card';
 
 import './Advanced.css';
@@ -55,6 +55,7 @@ export const Advanced: FC = () => {
 
   // set last direction and decrease current index
   const swiped = (direction: string, nameToDelete: string, index: number) => {
+    console.log(nameToDelete);
     setLastDirection(direction);
     updateCurrentIndex(index - 1);
   };
